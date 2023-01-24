@@ -1,0 +1,263 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+body {
+    padding: 1.5rem;
+    max-width: 1200px;
+    background-color: white;
+} 
+.Box1{
+    width: 100%;
+    background-color: black;
+    padding: 1.5rem;
+    
+}
+.Subbox1-1 {
+    background-color: #2d4059;
+    display: flex;
+    padding: 1.5rem;
+
+}
+.Fill1-1-1 {
+    width: 20%;
+    height: 1.5rem;
+    background-color: #ea5455;
+    margin-right: 1.5rem;
+}
+.Fill1-1-2 {
+    width: 80%;
+    height: 1.5rem;
+    background-color: #ea5455;
+    margin-right: 1.5rem;
+}
+.Fill1-1-3 {
+    width: 20%;
+    height: 1.5rem;
+    background-color: #ea5455;
+}
+.Subbox1-2 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.75rem;
+    background-color: #f07b3f;
+    padding: 1.5rem;
+}
+.Fill1-2-1 {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #fed460;
+}
+.Box2 {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    width: 100%;
+    background-color: black;
+    padding: 1.5rem;
+}
+.Subbox2-1 {
+    width: 70%;
+    display: block;
+    background-color: #4e4e6a;
+    margin-right: 1.5rem;
+    padding: 1.5rem;
+}
+.Group2-1-1 {
+    display: flex;
+}
+.Group2-1-1-1 {
+    display: flex;
+}
+.Fill2-1-1 {
+    width: 50%;
+    height: 1.5rem;
+    background-color: #1f6cb0;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.Fill2-1-2 {
+    width: 50%;
+    height: 1.5rem;
+    background-color: #1f6cb0;
+    margin-bottom: 1.5rem;
+}
+.Group2-1-2 {
+    display: flex;
+}
+.Fill2-1-3 {
+    width: 50%;
+    height: 1.5rem;
+    background-color: #1f6cb0;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.Fill2-1-4 {
+    width: 50%;
+    height: 1.5rem;
+    background-color: #1f6cb0;
+    margin-bottom: 1.5rem;
+}
+.Fill2-1-5 {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #70a3c4;
+}
+.Subbox2-2 {
+    width: 30%;
+    display: block;
+    background-color: #f73f52;
+    padding: 1.5rem;
+}
+.Fill2-2-1 {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #feea85;
+    margin-bottom: 0.75rem;
+}
+.Fill2-2-2 {
+    width: 100%;
+    height: 1.5rem;
+    background-color: #feea85;
+} 
+.Box3 {
+    width: 100%;
+    background-color: black;
+    padding: 1.5rem;
+    
+}
+.Fill3-1 {
+    height: 1.5rem;
+    width: 100%;
+    background-color: #e6af2e; 
+}
+
+
+@media (max-width: 1024px){
+
+body {
+    background-color: white;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.Box1 {
+    width: auto; 
+    background-color: black;
+    padding: 1.6rem;
+    margin-bottom: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.Subbox1-1 {
+    display: flex;
+    background-color: #2d4059;
+    margin-bottom: 0.8rem;
+}
+.Fill1-1-1 {
+    width: 17.5%;
+    height: 1.6rem;
+    background-color: #ea5455;
+}
+.Fill1-1-2 {
+    width: 65%;
+    height: 1.6rem;
+    background-color: #ea5455;
+}
+.Fill1-1-3 {
+    width: 17.5%;
+    height: 1.6rem;
+    background-color: #ea5455;
+
+}
+.Subbox1-2 {
+    background-color: #f07b3f;
+    padding: 1.6rem;
+}
+.Fill1-2-1 {
+    width: 100%;
+    height: 1.6rem;
+    background-color: #fed460;
+}
+.Box2 {
+    width: auto;
+    background-color: #feff03;
+    margin-bottom: 1.6rem;
+    display: block;
+}
+.Subbox2-1 {
+    background-color: #4e4e6a;
+    padding: 1.6rem;
+    width: auto;
+    margin-bottom: 1.6rem;
+    margin-right: 0;
+}
+.mid-top-grp-top {
+    display: flex;
+}
+.Fill2-1-1 {
+    background-color: #1f6cb0;
+    width: 50%;
+    height: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.Fill2-1-2 {
+    background-color: #1f6cb0;
+    width: 50%;
+    height: 1.6rem;
+    margin-bottom: 1.6rem;
+}
+.mid-top-grp-mid {
+    display: flex;
+}
+.Fill2-1-3 {
+    background-color: #1f6cb0;
+    width: 50%;
+    height: 1.6rem;
+}
+.Fill2-1-4 {
+    background-color: #1f6cb0;
+    width: 50%;
+    height: 1.6rem;
+}
+.Fill2-1-5 {
+    background-color: #70a3c4;
+    width: 100%;
+    height: 1.6rem;
+    margin-top: 0;
+}
+.Subbox2-2 {
+    background-color: #f73f52;
+    padding: 1.6rem;
+    width: auto;
+}
+.Fill2-2-1 {
+    background-color: #feea85;
+    width: 100%;
+    height: 1.6rem;
+    margin-bottom: 0.8rem;
+}
+.Fill2-2-2 {
+    background-color: #feea85;
+    width: 100%;
+    height: 1.6rem;
+    margin-top: 0.8rem;
+}
+.Box3 {
+    background-color: black;
+    padding: 1.6rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+}
+.Fill3-1 {
+    width: 100%;
+    height: 1.6rem;
+    background-color: #e6af2e;
+}
+
+}
