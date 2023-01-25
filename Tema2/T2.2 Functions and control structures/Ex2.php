@@ -2,7 +2,7 @@
     function count_to_ten_in_twos() {
         $current_num = 0;
         while ($current_num != 12) {
-            echo $current_num;
+            echo $current_num . "<br/>";
             $current_num += 2;
         }
     }
