@@ -5,7 +5,7 @@
             $this->name = $name;
             $this->wage = $wage;
         }
-        function print($employee) {
+        function print($this->wage) {
             if ($this->wage > 6000) {
                 echo "The student has to pay tax";
             }
