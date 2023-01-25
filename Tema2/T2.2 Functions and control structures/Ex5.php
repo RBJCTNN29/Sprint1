@@ -13,5 +13,5 @@
         echo $division . "<br/>";
     }
     echo "Aquesta funcio assigna una divisio a l'estudiant segons la seva nota. Posem l'exemple que te per defecte una nota del 60%" . "<br/>";
-    echo count_to_ten_in_twos();
+    echo determine_division();
 ?>
