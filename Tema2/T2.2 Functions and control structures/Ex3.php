@@ -1,7 +1,7 @@
 <?php
     function count_to_given_number($number) {
         $current_num = 0;
-        while ($current_num != 12) {
+        while ($current_num != $number) {
             echo $current_num . "<br/>";
             $current_num += 1;
         }
