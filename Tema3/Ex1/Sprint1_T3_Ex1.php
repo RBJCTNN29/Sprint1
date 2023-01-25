@@ -17,5 +17,6 @@
 
     $employee1 = new Employee; 
     $employee1->initialize("Rory", 5999);
+    echo 
 
 ?>
