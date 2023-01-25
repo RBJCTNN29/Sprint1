@@ -9,7 +9,9 @@
     }
     echo "Aquesta funcio ens diu si un nombre es parell o imparell";
     $num1 = 29;
-    $num2 = 30;
+    echo "El primer nombre es el 29";
     echo even_or_odd($num1);
+    $num2 = 30;
+    echo "El segon nombre es el 30";
     echo even_or_odd($num2);
 ?>
