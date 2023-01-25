@@ -7,10 +7,10 @@
         }
         function print($employee) {
             if ($this->wage > 6000) {
-                echo $this->name . " has to pay tax";
+                echo "The student has to pay tax";
             }
             else {
-                echo $this->name . " doesn't have to pay tax";
+                echo "The student doesn't have to pay tax";
             }
         }
     }
