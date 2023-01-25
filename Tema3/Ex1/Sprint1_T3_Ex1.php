@@ -5,12 +5,12 @@
             $this->name = $name;
             $this->wage = $wage;
         }
-        function print() {
-            if ($wage > 6000) {
-                echo $name . " has to pay tax";
+        function print($employee) {
+            if ($this->wage > 6000) {
+                echo $this->name . " has to pay tax";
             }
             else {
-                echo $name . " doesn't have to pay tax";
+                echo $this->name . " doesn't have to pay tax";
             }
         }
     }
