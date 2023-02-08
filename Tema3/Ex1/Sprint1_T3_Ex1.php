@@ -5,7 +5,7 @@
             $this->name = $name;
             $this->wage = $wage;
         }
-        function print($employee) {
+        function print() {
             if ($this->wage > 6000) {
                 echo $this->name . " has to pay tax";
             }
@@ -15,6 +15,6 @@
         }
     }
     $employee1 = new Employee; 
-    $employee1->initialize("Rory", 5999);
+    $employee1->initialize("Rory", 7000);
     $employee1->print($employee1);
 ?>
